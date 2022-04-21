@@ -6,6 +6,7 @@ apt install git
 apt autoremove -y
 mv ~/creation_script/assets/rolling-rhino.png /usr/share/backgrounds
 mv ~/creation_script/assets/.bashrc /etc/skel
+mv ~/creation_script/assets/.bash_aliases /etc/skel
 mv ~/creation_script/assets/.sources.sh /etc/skel
 rm -rf /etc/os-release
 mv ~/creation_script/assets/os-release /etc
