@@ -15,6 +15,7 @@ mv ~/creation_script/assets/10_ubuntu-settings.gschema.override /usr/share/glib-
 # Finish with rhino-config 
 mkdir ~/creation_script/rhino-config
 git clone https://github.com/rollingrhinoremix/rhino-config ~/creation_script/rhino-config
+chmod +x ~/creation_script/rhino-config/config.py
 mv ~/creation_script/rhino-config/config.py /usr/bin/rhino-config
 # Alert user that the script has completed
 echo "SCRIPT HAS COMPLETED - DELETING SCRIPT FILES"
