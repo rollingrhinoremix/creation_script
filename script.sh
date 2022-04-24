@@ -8,10 +8,10 @@ sudo mv ~/creation_script/assets/rolling-rhino.png /usr/share/backgrounds
 sudo mv ~/creation_script/assets/.bashrc /etc/skel
 sudo mv ~/creation_script/assets/.bash_aliases /etc/skel
 sudo mv ~/creation_script/assets/.sources.sh /etc/skel
-rm -rf /etc/os-release
-mv ~/creation_script/assets/os-release /etc
-rm -rf /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override 
-mv ~/creation_script/assets/10_ubuntu-settings.gschema.override /usr/share/glib-2.0/schemas
+sudo rm -rf /etc/os-release
+sudo mv ~/creation_script/assets/os-release /etc
+sudo rm -rf /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override 
+sudo mv ~/creation_script/assets/10_ubuntu-settings.gschema.override /usr/share/glib-2.0/schemas
 # Finish with rhino-config 
 mkdir ~/creation_script/rhino-config
 git clone https://github.com/rollingrhinoremix/rhino-config ~/creation_script/rhino-config
