@@ -1,3 +1,5 @@
+#!/bin/sh
+
 mkdir ~/creation_script/assets
 git clone https://github.com/rollingrhinoremix/distro ~/creation_script/assets
 apt update -y
