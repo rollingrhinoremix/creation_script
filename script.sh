@@ -1,3 +1,11 @@
+
+echo "This will change you installation to Rolling Rhino Remix"
+read -p "Are you sure you want to do this? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    exit 1
+fi
 mkdir ~/creation_script/assets
 git clone https://github.com/rollingrhinoremix/distro ~/creation_script/assets
 apt update -y
