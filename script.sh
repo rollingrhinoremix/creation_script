@@ -15,7 +15,7 @@ mv ~/creation_script/assets/10_ubuntu-settings.gschema.override /usr/share/glib-
 # Finish with rhino-config 
 mkdir ~/creation_script/rhino-config
 cd ~/creation_script/rhino-config
-wget # Link goes here
+wget https://github.com/rollingrhinoremix/rhino-config/releases/download/v2.0/rhino-config
 chmod +x ~/creation_script/rhino-config/rhino-config
 mv ~/creation_script/rhino-config/rhino-config /usr/bin
 # Alert user that the script has completed
