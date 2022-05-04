@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir ~/creation_script/assets
+mkdir ~/creation_script/{assets,rhino-config}
 
 { apt update -y && apt upgrade -y; }
 
@@ -20,7 +20,6 @@ mv ~/creation_script/assets/os-release /etc
 rm -rf /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override 
 mv ~/creation_script/assets/10_ubuntu-settings.gschema.override /usr/share/glib-2.0/schemas
 # Finish with rhino-config 
-mkdir ~/creation_script/rhino-config
 cd ~/creation_script/rhino-config
 wget https://github.com/rollingrhinoremix/rhino-config/releases/download/v2.0/rhino-config
 chmod +x ~/creation_script/rhino-config/rhino-config
