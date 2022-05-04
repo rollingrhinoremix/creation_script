@@ -1,8 +1,8 @@
 mkdir ~/creation_script/assets
+apt-get install git
 git clone https://github.com/rollingrhinoremix/distro ~/creation_script/assets
 apt update -y
 apt upgrade -y
-apt install git
 apt autoremove -y
 mv ~/creation_script/assets/rolling-rhino.png /usr/share/backgrounds
 mv ~/creation_script/assets/.bashrc /etc/skel
