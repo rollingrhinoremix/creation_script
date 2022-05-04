@@ -1,9 +1,15 @@
 #!/bin/bash
 
 mkdir ~/creation_script/assets
-git clone https://github.com/rollingrhinoremix/distro ~/creation_script/assets
+
 { apt update -y && apt upgrade -y; }
-apt install git
+
+which git &> /dev/null || {
+    apt install git
+}
+
+git clone https://github.com/rollingrhinoremix/distro ~/creation_script/assets
+
 apt autoremove -y
 mv ~/creation_script/assets/rolling-rhino.png /usr/share/backgrounds
 mv ~/creation_script/assets/.bashrc /etc/skel
