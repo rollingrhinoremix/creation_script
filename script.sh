@@ -15,12 +15,13 @@ apt autoremove -y
 mv ~/creation_script/assets/rolling-rhino.png /usr/share/backgrounds
 mv ~/creation_script/assets/.{bashrc,bash_aliases,sources.sh} /etc/skel
 
-rm -rf /etc/os-release
+rm -f /etc/os-release
 mv ~/creation_script/assets/os-release /etc
-rm -rf /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override 
+
+rm -f /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override
 mv ~/creation_script/assets/10_ubuntu-settings.gschema.override /usr/share/glib-2.0/schemas
 
-# Finish with rhino-config 
+# Finish with rhino-config
 cd ~/creation_script/rhino-config
 wget https://github.com/rollingrhinoremix/rhino-config/releases/download/v2.0/rhino-config
 chmod +x ~/creation_script/rhino-config/rhino-config
