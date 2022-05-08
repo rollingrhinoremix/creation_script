@@ -6,10 +6,10 @@ This script follows the steps in our guide on how to manually create your own di
 ## How to use the script
 
 To use the script you will first need to initialise Cubic, the steps can be found [here](https://rollingrhinoremix.github.io/docs-create). once that has been done you will need to follow the steps below:
-- Install Git in the Cubic terminal with `apt install git` 
-- clone this repository with `git clone https://github.com/rollingrhinoremix/creation_script`. 
-- Once this has been done please go into the directory with `cd ~/creation_script` 
-- run the script with `bash script.sh`
+- Install Git in the Cubic terminal with `apt install git`
+- Clone this repository with `git clone https://github.com/rollingrhinoremix/creation_script`.
+- Once this has been done please go into the directory with `cd ~/creation_script`
+- Run the script with `bash script.sh`
 
 #### Credits:
 - Script created by: [MrBeeBenson](https://mrbeebenson.github.io)
