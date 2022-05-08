@@ -9,7 +9,10 @@ To use the script you will first need to initialise Cubic, the steps can be foun
 - Install Git in the Cubic terminal with `apt install git`
 - Clone this repository with `git clone https://github.com/rollingrhinoremix/creation_script`.
 - Once this has been done please go into the directory with `cd ~/creation_script`
-- Run the script with `bash script.sh`
+- Run the script with:
+
+1. `chmod +x script.sh`
+2. `./script.sh`
 
 #### Credits:
 - Script created by: [MrBeeBenson](https://mrbeebenson.github.io)
