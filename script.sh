@@ -28,7 +28,10 @@ chmod +x ~/creation_script/rhino-config/rhino-config
 mv ~/creation_script/rhino-config/rhino-config /usr/bin
 
 # Alert user that the script has completed
-echo "SCRIPT HAS COMPLETED - DELETING SCRIPT FILES"
-echo "DO NOT DELETE GIT FROM SYSTEM"
+cat << MSG
+SCRIPT HAS COMPLETED - DELETING SCRIPT FILES
+DO NOT DELETE GIT FROM SYSTEM
+MSG
+
 cd ~
 rm -rf creation_script
