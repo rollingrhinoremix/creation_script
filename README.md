@@ -1,8 +1,6 @@
 # Rolling Rhino Remix - Creation Script
 The Rolling Rhino Remix creation script generates a fresh disk image from files in https://github.com/rollingrhinoremix/distro
 
-This script follows the steps in our guide on how to manually create your own disk image, which can be found [here](https://rollingrhinoremix.github.io/docs-create).
-
 ## How to create your own disk image of Rolling Rhino Remix using this script.
 
 Firstly you will need to install Cubic, you can install it [here](https://launchpad.net/cubic).
