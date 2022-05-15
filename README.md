@@ -1,3 +1,5 @@
+This repository is archived. We now utilise RRR-builder to generate our disk images, the repositories are found here: [RRR-builder (Ubuntu Desktop)](https://github.com/rollingrhinoremix/rrr-builder-full) and [RRR-builder (Minimal ISO)](https://github.com/rollingrhinoremix/rrr-builder-minimal)
+
 # Rolling Rhino Remix - Creation Script
 The Rolling Rhino Remix creation script generates a fresh disk image from files in https://github.com/rollingrhinoremix/distro
 
